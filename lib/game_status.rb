@@ -67,5 +67,6 @@ def winner(board)
   if board[sub_array[0]] != nil && board[sub_array[0]] != " " && board[sub_array[0]] == board[sub_array[1]] && board[sub_array[1]] == board[sub_array[2]] && board[sub_array[2]] == "X"
   return puts "X wins!"
 end
+}
   end
 end
