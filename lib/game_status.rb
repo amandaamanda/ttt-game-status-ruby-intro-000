@@ -65,7 +65,7 @@ def winner(board)
   elsif
     WIN_COMBINATIONS.each {|sub_array|
   if board[sub_array[0]] != nil && board[sub_array[0]] != " " && board[sub_array[0]] == board[sub_array[1]] && board[sub_array[1]] == board[sub_array[2]]
-    if && board[sub_array[2]] == "X"
+    if board[sub_array[2]] == "X"
 puts "X wins!"
 end
 end
